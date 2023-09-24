@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{508BF7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{DA8AE16C-A26D-4A2F-9B54-EF60BA41069D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.API", "Services\Basket\Basket.API\Basket.API.csproj", "{1687D134-B75F-4400-9C69-281FD86E7880}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "Services\Basket\Basket.API\Basket.API.csproj", "{1687D134-B75F-4400-9C69-281FD86E7880}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{5D9F51CE-08E6-4E6F-A4CA-2273E5A77593}"
 EndProject
@@ -17,13 +17,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{51
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{FC0D6188-5D10-40BA-BAEA-354817D12EAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{15D4FA21-7676-490E-A84E-D5E0D34B8F2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{15D4FA21-7676-490E-A84E-D5E0D34B8F2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{AC2698F5-C030-4313-A5CC-3CEFFD902C3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{AC2698F5-C030-4313-A5CC-3CEFFD902C3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.API", "Services\Ordering\Ordering.API\Ordering.API.csproj", "{D726EB92-9C26-46EE-ADF3-6822DCB8FD63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.API", "Services\Ordering\Ordering.API\Ordering.API.csproj", "{D726EB92-9C26-46EE-ADF3-6822DCB8FD63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotAPIGateway", "ApiGateways\OcelotAPIGateway\OcelotAPIGateway.csproj", "{DE6ACFA9-0596-4B05-B42B-02CFF07796D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcelotAPIGateway", "ApiGateways\OcelotAPIGateway\OcelotAPIGateway.csproj", "{DE6ACFA9-0596-4B05-B42B-02CFF07796D5}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8E98DC37-EDC3-4465-8FD1-00847D851371}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{DE6ACFA9-0596-4B05-B42B-02CFF07796D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE6ACFA9-0596-4B05-B42B-02CFF07796D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE6ACFA9-0596-4B05-B42B-02CFF07796D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E98DC37-EDC3-4465-8FD1-00847D851371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E98DC37-EDC3-4465-8FD1-00847D851371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E98DC37-EDC3-4465-8FD1-00847D851371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E98DC37-EDC3-4465-8FD1-00847D851371}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
