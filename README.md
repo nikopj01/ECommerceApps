@@ -8,7 +8,7 @@ Following are the details:
 3. Basket.API = .NET 6 Web API & Redis
 4. Discount.API = .NET 6 Web API & PostgreSQL
 5. Ordering.API = .NET 6 Web API & SQL Server
-6. Message Broker = RabbitMQ
+6. Message Broker = RabbitMQ (In development)
 7. Docker
 
 ## System Design
